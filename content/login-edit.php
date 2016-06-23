@@ -27,6 +27,12 @@
 			
 		</fieldset>
 
+
+		<h4><?php echo __( 'Connect PAYCALL', 'cleanlogin' ); ?></h4>
+		
+		<p id="paycallSignup" class="cleanlogin-form-description"><?php echo __( 'If you would like to enable PAYCALL on your account, go to <a target="_blank" href="https://paycall.headstore.com">paycall.headstore.com</a> and sign up with your email ', 'cleanlogin' ); echo $current_user->user_email; ?>.</p>
+	<p id="paycallDisable" style="display:none;" class="cleanlogin-form-description"><?php echo __( 'Your account is currently connected with PAYCALL. If you would like to disconnect, please go to <a target="_blank" href="https://paycall.headstore.com">paycall.headstore.com</a> and disable your profile.', 'cleanlogin' );?></p>
+	
 		<h4><?php echo __( 'Change password', 'cleanlogin' ); ?></h4>
 		
 		<p class="cleanlogin-form-description"><?php echo __( "If you would like to change the password type a new one. Otherwise leave this blank.", 'cleanlogin' ); ?></p>
